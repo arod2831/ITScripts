@@ -45,3 +45,4 @@ Write-Output "--- Health Check Complete ---
 Total computers checked: $ComputerCounter
 Online : $OnlineCounter
 Offline : $OfflineCounter" | Out-File -FilePath "C:\Users\Aldo\Downloads\logs.txt" -Append
+#This was written by aldo
