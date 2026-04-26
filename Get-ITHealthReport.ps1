@@ -26,6 +26,8 @@ Function Get-ITHealthReport {
     }
 }
 
+Write-Host "Starting IT Health Check..."
+
 $computers = @("8.8.8.8", (hostname))
 $OnlineCounter = 0
 $OfflineCounter = 0
