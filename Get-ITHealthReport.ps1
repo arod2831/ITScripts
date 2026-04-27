@@ -49,3 +49,4 @@ Online : $OnlineCounter
 Offline : $OfflineCounter" | Out-File -FilePath "C:\Users\Aldo\Downloads\logs.txt" -Append
 #This was written by aldo
 #This edit to show its pushed to github
+#save 3 but not really saving
